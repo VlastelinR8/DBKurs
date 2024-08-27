@@ -344,7 +344,7 @@ void MainWindow::connectToDataBase()
 {
     db.driver();
 //    db.setUserName("postgres");
-//    db.setPassword("07172531");
+//    db.setPassword("");
 //    db.setHostName("127.0.0.1");
 //    db.setPort(5432);
     db.setUserName(con.userEd->text());
